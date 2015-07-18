@@ -6,7 +6,7 @@ jQuery 1x, 2x.
 
 ## Usage
 ```
-// Event listener for the game over event. When the game is over the score is available on front end code to manipulate
+// Event listener for the game over event.
 $.subscribe("game.end", function (evt, d) {
     $(".receiver").text("CONGRATULATIONS YOUR NEW HI-SCORE " + d).show();
 });
